@@ -9,18 +9,117 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
   </head>
   <body>
+    <section class="section" id="about">
+      <span>About</span>
+      <p>
+        Hello! My name is Wyatt. I am 23 years old and work as a software
+        engineer at <a class="Work-Link" href="https://www.701x.com">701x</a>. I
+        graduated from NDSU in the spring of 2023 with a B.S. in Computer
+        Science. In my free time, I like to run, hunt, and work on personal
+        projects. My biggest short-term goal is currently training for the
+        <a
+          class="Other-Link"
+          href="https://kiawahresort.com/recreation/kiawah-island-marathon/"
+          >Kiawah Island Marathon</a
+        >
+        in December.
+      </p>
+    </section>
+    <div class="divider"></div>
+    <section class="section" id="experience">
+      <span>Experience</span>
+      <div>
+        <span id="work-span"
+          >ComDel Innovation - Wahpeton, ND (May 2022 - August 2022)</span
+        >
+        <div class="skill-container">
+          <span id="skill-span">C#</span>
+          <span id="skill-span">Visual Basic</span>
+          <span id="skill-span">PowerShell</span>
+          <span id="skill-span">Hardware Integration</span>
+          <span id="skill-span">SQL</span>
+        </div>
+        <p>
+          During my time as an intern at
+          <a class="Other-Link" href="https://comdelinnovation.com">ComDel</a>,
+          I worked on numerous projects that were mainly used in the
+          manufacturing facility. My favorite project was a Visual Basic program
+          that had to do with a plastics leak tester. The program would connect
+          to the tester, read values each time a test was run, and then display
+          those values on a graph. This helped workers easily determine if there
+          were any plastics which did not pass the leak test
+        </p>
+      </div>
+      <div>
+        <span id="work-span">701x - Fargo, ND (October 2022 - Present)</span>
+        <div class="skill-container">
+          <span id="skill-span">JavaScript / TypeScript</span>
+          <span id="skill-span">React / React Native</span>
+          <span id="skill-span">Rust</span>
+          <span id="skill-span">Database Design</span>
+          <span id="skill-span">Fullstack</span>
+          <span id="skill-span">Agile</span>
+          <span id="skill-span">API Development</span>
+        </div>
+        <p>
+          I started as an intern in October 2022 and started full-time right
+          after graduating in 2023. I have gained a great number of skills in my
+          time here and am grateful for that. Starting mainly as a frontend dev,
+          over the past few years I've worked on many diverse projects in
+          different roles. I currently hold the position of Software Engineer II
+          and work on various fullstack features and projects.
+        </p>
+      </div>
+    </section>
+    <div class="divider"></div>
+    <section class="section" id="photos">
+      <span>Photos</span>
+      <div class="gallery">
+        <figure>
+          <img
+            src="images/bike.jpg"
+            width="50%"
+            height="auto"
+            alt="Motorcycle"
+            loading="lazy"
+          />
+        </figure>
+        <figure>
+          <img src="images/fish.jpeg" alt="Alt text 2" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="images/boys.jpeg" alt="Alt text 3" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="images/field.PNG" alt="Alt text 3" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="images/bison.jpeg" alt="Alt text 3" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="images/canoe.jpeg" alt="Alt text 3" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="images/run.jpeg" alt="Alt text 3" loading="lazy" />
+        </figure>
+        <figure>
+          <img src="images/tractor.jpeg" alt="Alt text 3" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
     <nav class="navbar">
       <span class="title">Wyatt Cuypers</span>
       <ul class="links">
-        <li><a href="#">About </a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Photos</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#photos">Photos</a></li>
       </ul>
     </nav>
   </body>
